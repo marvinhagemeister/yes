@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "bin": {
-    "yes": "./src/bin.js"
+    "mh-yes": "./src/bin.js"
   },
   "exports": {
     ".": {
