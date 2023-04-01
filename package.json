@@ -1,10 +1,12 @@
 {
-  "name": "yes",
+  "name": "@marvinh/yes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test package that prints 'yes' to the terminal",
   "main": "src/index.js",
   "type": "module",
-  "bin": "./bin.js",
+  "bin": {
+    "yes": "./src/bin.js"
+  },
   "exports": {
     ".": {
       "import": "./src/index.js"
@@ -15,6 +17,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Marvin Hagemeister <hello@marvinh.dev>",
+  "license": "MIT"
 }
