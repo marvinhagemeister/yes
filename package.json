@@ -11,6 +11,9 @@
     ".": {
       "import": "./src/index.js"
     },
+    "./global-window": {
+      "import": "./src/global-window.js"
+    },
     "./package.json": "./package.json"
   },
   "scripts": {
