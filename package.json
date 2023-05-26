@@ -1,6 +1,6 @@
 {
   "name": "@marvinh/yes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Test package that prints 'yes' to the terminal",
   "main": "src/index.js",
   "type": "module",
