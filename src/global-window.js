@@ -1,1 +1,3 @@
-window.foo = "yes";
+export function foo() {
+  return window.foo;
+}
